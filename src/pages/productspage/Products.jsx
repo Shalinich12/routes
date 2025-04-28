@@ -12,7 +12,7 @@ function Products() {
     //         setData(products)
     //     }
     //     fetchdata()
-    // },[])
+    // },[]) 
     useEffect(() => {
         async function fetchData() {
             let { data } = await axios.get('https://dummyjson.com/products');
